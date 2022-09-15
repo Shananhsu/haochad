@@ -45,29 +45,35 @@
     display: flex;
     justify-content: center;
     content: "";
+    background-color: rgba(0, 0, 0, 0.774);
   }
 
   >p {
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.774);
   }
 }
 
 @keyframes example {
   0% {
     content: "회차...";
-    color: #ffffff;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.774);
   }
   50% {
     content: "미안해요...";
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.774);
   }
   75% {
     content: "저를좀용서해주십시오...";
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.774);
   }
   100% {
     content: "사랑해요 ♡ ♥ ❤ 찡긋";
     color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.774);
   }
 }
 
