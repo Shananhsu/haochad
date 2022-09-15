@@ -44,7 +44,6 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    content: "";
   }
 
   >p {
@@ -52,23 +51,8 @@
   }
 }
 
-@keyframes haocha {
-  0% {
-    content: "회차...";
-    color: #ffffff;
-  }
-  50% {
-    content: "미안해요...";
-    color: #ffffff;
-  }
-  75% {
-    content: "저를좀용서해주십시오...";
-    color: #ffffff;
-  }
-  100% {
-    content: "사랑해요 ♡ ♥ ❤ 찡긋";
-    color: #ffffff;
-  }
+.enterText {
+  font-size: 36px;
 }
 
 .contentVideo {
