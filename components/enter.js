@@ -18,7 +18,7 @@ const Enter = () => {
         setTimeout(() => {
             setText(false);
             setVideo(true);
-        }, 9000)
+        }, 19000)
 
         setInterval(() => {
             setSec(sec = sec +1)  
@@ -29,11 +29,13 @@ const Enter = () => {
         if(sec <= 3) {
             setMytext("회차...")
         } else if (sec > 3 && sec <= 6) {
-            setMytext("미안해요...")
+            setMytext("미안해요...");
         }else if (sec > 6 && sec <= 12) {
-            setMytext("저를좀용서해주십시오...")
+            setMytext("저를좀용서해주십시오...");
         } else if (sec > 12 && sec <= 15) {
-            setMytext("저를좀용서해주십시오...")
+            setMytext("저를좀용서해주십시오...");
+        }   else if (sec > 15 && sec <=18) {
+            setMytext("사랑해요 ♡ ♥ ❤ 찡긋");
         }
     },[sec])
 
