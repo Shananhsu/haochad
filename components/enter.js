@@ -9,7 +9,6 @@ const Enter = () => {
     const [video, setVideo] = useState(false);
 
     const handleEnter = () => {
-
         setEnter(false);
         if (enter) {
             setText(true);
@@ -17,7 +16,6 @@ const Enter = () => {
         setTimeout(() => {
             setText(false);
             setVideo(true);
-
         }, 9000)
     }
 
